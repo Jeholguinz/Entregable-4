@@ -1,0 +1,105 @@
+.cabecera,footer{
+    padding: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(190, 190, 219);
+    border-radius: 20px;
+    border-style: double;
+    border-color: black;
+}
+.fotografia{
+    border-radius: 20px;
+    border-color: black;
+    border-style:double;
+}
+.navegacion{
+    list-style: none;
+    background-color:gray;
+    border-radius: 20px;
+    padding: 5px;
+    border-style: double;
+    border-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacion_item{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:aquamarine;
+    margin: 2px;
+    transition: background-color 0.3s ease;
+}
+.navegacion_item a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.navegacion_item a:hover{
+    color: red;
+}
+.perfil_profesional, .estudios, .experiencia_laboral, .hobbies, .contacto{
+    background-color:aquamarine;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    border-style: double;
+    border-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.experiencia_laboral  table tr, th{
+    border-bottom: 10px;
+    border-color: blue;
+    overflow-x: auto;
+    background-color:grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos para el formulario */
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contacto label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto input[type="number"],
+.contacto input[type="date"]{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contacto input[type="text"]:focus,
+.contacto input[type="email"]:focus,
+.contacto input[type="number"]:focus,
+.contacto input[type="date"]:focus{
+    border-color: blue;
+}
+
+.contacto input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto input[type="submit"]:hover{
+    background-color: #0056b3;
+}
