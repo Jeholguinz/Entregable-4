@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laboratorio 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <h1>HOJA DE VIDA</h1>
+        <img class="fotografia"   src="imagenes/Foto.jpg" alt="Foto" width="150">
+        <h3> <i> <strong>Jhon Edinson Holguin</strong></i></h3>
+        <h3> <i> <strong> Email :</strong> jeholguinz@gmail.com</i></h3>
+        <h3> <i> <strong>Celular:</strong> 3122178443</i></h3>
+    </header>
+     <nav>
+        <ul class="navegacion">
+            <li class="navegacion_item"> <a href="#perfil">Perfil profesional</a> </li>
+            <li class="navegacion_item"> <a href="#educacion">Educacion</a></li>
+            <li class="navegacion_item"> <a href="#experiencia">Experiencia Laboral</a></li>
+            <li class="navegacion_item"> <a href="#hobbies">Hobbies</a></li>
+
+            <li class="navegacion_item"> <a href="#contactame"> Contactarme</a></li>
+        </ul>
+    </nav>
+
+    <section class="perfil_profesional" id="perfil">
+            <h2> Perfil profesional</h2>
+            <p>
+                Ingeniero en electrónica graduado de la institución universitaria Antonio José Camacho con especialización en gerencia de proyectos, con experiencia en coordinación, planeación y dirección de los procesos de mantenimiento generando optimización de los recursos económicos, físicos y humanos.
+            </p>
+            <p>
+                Experiencia en el ámbito industrial en el manejo de PLC’s, redes de comunicación industrial, sistemas electromecánicos y experiencia en soporte electrónico en calibración y ajuste de válvulas proporcionales, sistemas de control automático, transmisores de flujo, controladores de temperatura y variadores de frecuencia.
+            </p>
+            <p>
+                Conocimiento y aplicación de la normativa 17025 para laboratorios de ensayo y calibración.
+                Capaz de generar valor agregado a la organización mediante creación de ideas e iniciativa propia para la resolución de problemas.
+            </p>
+    </section>
+
+    <section  class="estudios" id="educacion">
+            <h1>
+                Educación 
+            </h1>
+        <hr>
+            <h2>
+                Postgrado
+            </h2>
+            <ul>
+                <li>
+                    <p>
+                        <a href="https://virtual.uao.edu.co/posgrado/especializacion-en-gerencia-de-proyectos/" target="_blank"> <h3>Especialista en Gerencia de Proyectos</h3></a>
+                    </p>
+                    <p>
+                    <img src="imagenes/UAO.png" alt="uao" width="100"> 
+                    </p>
+                </li>
+                <hr>
+                <h2>
+                Pregrado
+                </h2>
+                <li>
+                    <p>
+                        <a href="https://www.uniajc.edu.co/ingenieria-electronica/" target="_blank"> <h3>Ingeniero Electronico</h3></a>
+                    </p>
+                    <p>
+                        <img src="imagenes/Uniajc.png" alt="uniajc" width="100"> 
+                    </p>
+                </li>
+                <hr>    
+                <h2>
+                    Técnologicos
+                </h2>
+                <li>
+                    <ol>
+                    <li>
+                        <strong>Automatización Industrial</strong>
+                        <p>
+                            <img src="imagenes/Sena.png" width="100">
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                        <strong>Tecnologia Electronica</strong> 
+                        </p>
+                        <img src="imagenes/Uniajc.png" width="100">  
+                    </li>
+                </ol>
+                </li> 
+            </ul>
+    </section>
+
+    <section  class="experiencia_laboral" id="experiencia">
+        <h1>
+            Experiencia laboral
+        </h1>
+        <table border="1" cellpadding = "3" cellspacing = "5"  width="50%">
+
+            <tr>
+                <th>
+                Empresa
+                </th>
+                <th>
+                    Cargo
+                </th>
+                <th>
+                    Años Laborados
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Abastecemos de Occidente
+                </td>
+                <td>
+                    Ingeniero de mantenimiento
+                </td>
+                <td>
+                    5 años
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alcaldia de Cali
+                </td>
+                <td>
+                    Ingeniero de Soporte
+                </td>
+                <td>
+                    5 años
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Postobon SA
+                </td>
+                <td>
+                    Tecnico III
+                </td>
+                <td>
+                    3 años
+                </td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Leer libros de ciencia y tecnología</li>
+            <li>Escuchar música</li>
+            <li>Hacer ejercicio</li>
+            <li>Viajar y conocer nuevos lugares</li>
+        </ul>
+    </section>
+    <section class="contacto" id="contactame">
+        <h2> Contactarme</h2>
+        <form id="form-contacto">
+            <p>
+                <label for="nombre">
+                <span> Nombre</span>
+                <input type="text" id="nombre" required>
+                </label>
+            </p>
+            <p>
+                <label for="apellido">
+                <span> Apellido</span>
+                <input type="text" id="apellido" required>
+                </label>
+            </p>
+            <p>
+                <label for="correo">
+                <span> Correo electrónico</span>
+                <input type="email" id="correo" required>
+                </label>
+            </p>
+            <p>
+                <label for="telefono" >
+                <span>Numero de Teléfono</span>
+                <input type="number" id="telefono" required>
+                </label>
+            </p>
+            <p>
+                 <label for="fecha">
+                    <span> Fecha que desea ser contactado</span>
+                    <input type="date" id="fecha" required>
+            </label>
+            </p>
+            <input type="submit" value="Enviar" />
+
+        </form>
+    </section>
+    <footer>
+        &COPY; Jhon Holguin 2025
+    </footer>
+</body>
+</html>
